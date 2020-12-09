@@ -1,0 +1,5 @@
+# Before docker-compose up
+#set permission filebeat
+
+sudo chown root ./filebeat/filebeat.yml
+sudo chmod go-w ./filebeat/filebeat.yml
